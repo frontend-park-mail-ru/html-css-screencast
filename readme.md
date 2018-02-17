@@ -3,8 +3,7 @@
 #### Установка
 Чтобы помочь с выполнением первого домашнего задания, мы решили сделать этот скринкаст. Если на данный момент вы пребываете в растерянности и не знаете, откуда начать, то это нормально, а главное, поправимо.
 
-`records/record.mp4` это видео о том, как с нуля за 60 минут сделать вёрстку несложной страницы с формой авторизации. Оно без звука. Поэтому включайте любимый трек и смотрите его на скорости **1,5-2x**, а также не забудьте заглянуть в `static/page.html`, чтобы оценить конечный результат. Или сделвйте всё в обратном порядке!
-
+[Данный скринкаст](https://drive.google.com/open?id=19-sQbeskUqyvowntX0tLX-5mpGPP2gOv) о том, как с нуля за 60 минут сделать вёрстку несложной страницы с формой авторизации. Оно без звука. Поэтому включайте любимый трек и смотрите его на скорости **1,5-2x**, а также не забудьте заглянуть в `static/page.html`, чтобы оценить конечный результат. Или сделвйте всё в обратном порядке!
 
 #### Структура записи
 ##### 1. Настройка среды разработки
@@ -23,8 +22,12 @@
 
 
 #### Что почитать
-[htmlacademy](https://htmlacademy.ru)
-[Вёрстка это не тупо](http://webmasters.teamdev.com/)
-[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-[Change Autocomplete Styles in WebKit Browsers](https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/)
-[Как сделать цвета на пару оттенков темнее-светлее для состояний кнопок](http://pinetools.com/darken-color)
+* [htmlacademy](https://htmlacademy.ru)
+
+* [Вёрстка это не тупо](http://webmasters.teamdev.com/)
+
+* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+* [Change Autocomplete Styles in WebKit Browsers](https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/)
+
+* [Как сделать цвета на пару оттенков темнее-светлее для состояний кнопок](http://pinetools.com/darken-color)
