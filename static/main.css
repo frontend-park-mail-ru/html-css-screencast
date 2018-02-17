@@ -1,0 +1,127 @@
+button {
+    height: 32px;
+    font-size: 15px;
+    padding: 0 16px;
+
+    border-radius: 100px;
+    background: #34bba3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1ca28a;
+}
+
+button:active {
+    background-color: #009379;
+}
+
+button[disabled] {
+    opacity: 0.48;
+    pointer-events: none;
+    user-select: none;
+}
+
+button.secondary {
+    background: #c5c5c5;
+}
+
+
+input {
+    height: 32px;
+    font-size: 15px;
+    padding: 0 10px;
+
+    border-radius: 100px;
+    border: none;
+    outline: 0;
+
+    box-shadow: 0 0 0 2px #FFFFFF,
+                0 0 0 4px #c5c5c5;
+    
+                margin: 4px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    border: 1px dotted #63476f;
+    box-shadow: 0 0 0px 1000px #edf8f6 inset,
+                0 0 0px 4px #edf8f6;
+}
+
+input:focus,
+button:focus,
+a:focus {
+    box-shadow: 0 0 0 2px #FFFFFF,
+                0 0 0 4px #FBD1DC;
+    outline: none;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+
+    box-shadow: 1px 2px 10px 0px #c5c5c5;
+    padding: 12px 20px 20px;
+}
+
+form main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form main > * {
+    margin-bottom: 20px;
+}
+
+form main > *:last-child {
+    margin-bottom: 0;
+}
+
+
+form footer button:first-child {
+    margin-right: 20px;
+}
+
+body, .page {
+    height: 100vh;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-image: url(assets/otter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+}
+
+.page .wrapper__form {
+    margin: auto;
+}

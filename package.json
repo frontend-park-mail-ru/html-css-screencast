@@ -1,0 +1,14 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "static-livereload --path static"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "static-livereload": "^0.1.4"
+  }
+}
